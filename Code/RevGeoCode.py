@@ -11,7 +11,7 @@ import pandas as pd
 import reverse_geocoder as rg
 
 
-powerplant = pd.read_csv("~/Desktop/Second Year Scholarship/Data/US_Dataset_PowerPlants_Locations_Nature_County.csv")
+powerplant = pd.read_csv("~/Desktop/SecondYearScholarship/Data/US_Dataset_PowerPlants_Locations_Nature_County.csv")
 
 powerplant.head()
 
@@ -27,4 +27,4 @@ for i in range(len(powerplant)):
 powerplant['County'] = County
 powerplant['State'] = State
 
-powerplant.to_csv('~/Desktop/Second Year Scholarship/Data/Powerplant.csv')
+powerplant.to_csv('~/Desktop/SecondYearScholarship/Data/Powerplant.csv')
