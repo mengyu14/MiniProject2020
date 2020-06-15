@@ -109,13 +109,5 @@ top_superfund_county <- superfund %>%
 
     
     
-library(revgeo)
-revgeo(longitude=-74.3913, latitude=40.5358, provider = 'google', API = "AIzaSyDJcsUjO4p4LcllsQUjtjg6-PqcLTz6B4Y", 
-       output = "hash", item = "county")
-    
-    
-    
-    
-    
     
 
